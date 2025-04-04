@@ -1,0 +1,25 @@
+{
+  "name": "astro-server-functions",
+  "description": "",
+  "keywords": [],
+  "author": "Shreyas Mididoddi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreyassanthu77/astro-server-functions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shreyassanthu77/astro-server-functions/issues"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "astro": "^5.6.1"
+  },
+  "dependencies": {
+    "@tanstack/server-functions-plugin": "^1.114.32",
+    "devalue": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0"
+  }
+}
