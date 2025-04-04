@@ -57,7 +57,7 @@ export const onRequest: MiddlewareHandler = async (ctx, next) => {
       reqBody = parse(body);
     }
 
-    const res = await requestStore.run({ ctx }, fn, ...reqBody);
+    const res = await fn(...reqBody);
     const body = stringify(res);
 
     return new Response(body, {

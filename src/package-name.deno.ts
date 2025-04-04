@@ -1,1 +1,1 @@
-export const packageName = "@shreyas/astro-server-functions";
+export const packageName = "@shreyas/astro-use-server";

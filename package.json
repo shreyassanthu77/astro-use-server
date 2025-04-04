@@ -1,15 +1,15 @@
 {
-  "name": "astro-server-functions",
+  "name": "astro-use-server",
   "description": "",
   "keywords": [],
   "author": "Shreyas Mididoddi",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shreyassanthu77/astro-server-functions.git"
+    "url": "git+https://github.com/shreyassanthu77/astro-use-server.git"
   },
   "bugs": {
-    "url": "https://github.com/shreyassanthu77/astro-server-functions/issues"
+    "url": "https://github.com/shreyassanthu77/astro-use-server/issues"
   },
   "type": "module",
   "peerDependencies": {

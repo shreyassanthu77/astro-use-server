@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/denoland/deno/refs/heads/main/cli/schemas/config-file.v1.json",
-  "name": "@shreyas/astro-server-functions",
-  "version": "0.0.1",
+  "name": "@shreyas/astro-use-server",
+  "version": "0.1.0",
   "compilerOptions": {
     "lib": [
       "deno.window",
@@ -11,7 +11,7 @@
   },
   "tasks": {
     "build": "deno -A ./scripts/build-npm.ts",
-    "deploy": "cd npm && npm publish"
+    "publish": "deno task build && cd npm && npm publish"
   },
   "imports": {
     "@deno/dnt": "jsr:@deno/dnt@^0.41.3"
@@ -20,6 +20,8 @@
     ".": "./src/main.ts",
     "./server-runtime": "./src/server-runtime.ts",
     "./server-middleware": "./src/server-middleware.ts",
-    "./client-runtime": "./src/client-runtime.ts"
+    "./server-middleware-pre": "./src/server-middleware-pre.ts",
+    "./client-runtime": "./src/client-runtime.ts",
+    "./hooks": "./src/hooks.ts"
   }
 }

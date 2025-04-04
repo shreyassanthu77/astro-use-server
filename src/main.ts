@@ -54,6 +54,11 @@ export default function serverFunctions(): AstroIntegration {
         });
 
         addMiddleware({
+          entrypoint: `${packageName}/server-middleware-pre`,
+          order: "pre",
+        });
+
+        addMiddleware({
           entrypoint: `${packageName}/server-middleware`,
           order: "post",
         });
