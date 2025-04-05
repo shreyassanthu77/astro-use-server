@@ -18,10 +18,10 @@
   },
   "exports": {
     ".": "./src/main.ts",
-    "./server-runtime": "./src/server-runtime.ts",
-    "./server-middleware": "./src/server-middleware.ts",
-    "./server-middleware-pre": "./src/server-middleware-pre.ts",
-    "./client-runtime": "./src/client-runtime.ts",
-    "./hooks": "./src/hooks.ts"
+    "./plugin": "./src/plugin/main.ts",
+    "./plugin/server-runtime": "./src/plugin/server-runtime.ts",
+    "./plugin/server-middleware": "./src/plugin/server-middleware.ts",
+    "./plugin/server-middleware-pre": "./src/plugin/server-middleware-pre.ts",
+    "./plugin/client-runtime": "./src/plugin/client-runtime.ts"
   }
 }

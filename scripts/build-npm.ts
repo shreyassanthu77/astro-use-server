@@ -16,7 +16,7 @@ await build({
     deno: false,
   },
   mappings: {
-    "./src/package-name.deno.ts": "./src/package-name.node.ts",
+    "./src/plugin/package-name.deno.ts": "./src/plugin/package-name.node.ts",
   },
   compilerOptions: {
     lib: ["ESNext", "DOM", "DOM.Iterable"],
