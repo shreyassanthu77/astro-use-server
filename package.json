@@ -12,10 +12,8 @@
     "url": "https://github.com/shreyassanthu77/astro-use-server/issues"
   },
   "type": "module",
-  "peerDependencies": {
-    "astro": "^5.6.1"
-  },
   "dependencies": {
+    "astro": "^5.6.1",
     "@tanstack/server-functions-plugin": "^1.114.32",
     "devalue": "^5.1.1"
   },

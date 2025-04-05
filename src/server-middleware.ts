@@ -1,5 +1,4 @@
 import type { MiddlewareHandler } from "astro";
-import { requestStore } from "./request_store.ts";
 import { stringify, parse } from "devalue";
 
 // @ts-ignore: will be defined by tanstack-server-functions-plugin

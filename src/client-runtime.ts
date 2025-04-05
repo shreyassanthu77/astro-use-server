@@ -1,6 +1,8 @@
 import { stringify, parse } from "devalue";
 
-export function createClientRpc(functionId: string) {
+export function createClientRpc(
+  functionId: string,
+): (...args: unknown[]) => Promise<unknown> {
   return async function (...args: unknown[]) {
     const url = new URL("/_server-fn", location.origin);
     url.searchParams.set("functionId", functionId);

@@ -1,6 +1,6 @@
-import { requestStore } from "./request_store.ts";
+import { requestStore, type RequestStore } from "./request_store.ts";
 
-export function useServerContext() {
+export function useServerContext(): RequestStore["ctx"] {
   const store = requestStore.getStore();
   if (!store) {
     throw new Error(
